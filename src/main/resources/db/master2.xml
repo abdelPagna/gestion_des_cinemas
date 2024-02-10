@@ -1,0 +1,7 @@
+<databaseChangeLog xmlns="https://www.liquibase.org/xml/ns/dbchangelog"	
+	xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="https://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.24.0.xsd">
+  
+  <include file="db/changelog/tables/add_entities.xml" relativeToChangelogFile="false"/>
+  
+</databaseChangeLog>

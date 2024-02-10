@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="https://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="https://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+  
+  <include file="db/changelog/tables/add_entity_categorie.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_cinema.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_film.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_salle.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_place.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_ville.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_projection_film.xml" relativeToChangelogFile="false"/>
+  <include file="db/changelog/tables/add_entity_ticket.xml" relativeToChangelogFile="false"/>  
+  <include file="db/changelog/tables/add_entity_customer.xml" relativeToChangelogFile="false"/>  
+
+</databaseChangeLog>

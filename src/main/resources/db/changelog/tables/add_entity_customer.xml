@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="https://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="https://www.liquibase.org/xml/ns/dbchangelog https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+  <!--Added the entity Categorie-->
+  
+   <changeSet id="202402101249-3" author="user">
+      <createTable tableName="customers">
+         <column name="id" type="varchar(50)">
+            <constraints primaryKey="true" primaryKeyName="pk_customer" nullable="false" />
+         </column>
+         <column name="name" type="varchar(100)"/>         
+      </createTable>
+   </changeSet>
+</databaseChangeLog>
